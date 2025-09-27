@@ -46,6 +46,78 @@
       </section>
     </main>
 
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Features</h2>
+        <div class="grid features-grid">
+          <article class="card reveal">
+            <div class="card-icon">⚡</div>
+            <h3>Fast & Smooth</h3>
+            <p>GPU-accelerated animations, buttery transitions, and snappy interactions.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">🎯</div>
+            <h3>Interactive</h3>
+            <p>Follow-cursor 3D, hover micro-interactions, and scroll-triggered reveals.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">📱</div>
+            <h3>Responsive</h3>
+            <p>Adaptive layout scales beautifully from mobile to ultrawide screens.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Recent Work</h2>
+        <div class="grid work-grid">
+          <div class="work-item reveal" data-tilt>
+            <div class="work-media shimmer"></div>
+            <div class="work-meta">
+              <h3>3D Commerce</h3>
+              <p>Immersive product explorer with real-time lighting.</p>
+            </div>
+          </div>
+          <div class="work-item reveal" data-tilt>
+            <div class="work-media shimmer"></div>
+            <div class="work-meta">
+              <h3>XR Portfolio</h3>
+              <p>WebXR-ready scene with gesture controls.</p>
+            </div>
+          </div>
+          <div class="work-item reveal" data-tilt>
+            <div class="work-media shimmer"></div>
+            <div class="work-meta">
+              <h3>Data Story</h3>
+              <p>Scroll-driven narrative with parallax and charts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div class="contact-copy reveal">
+          <h2 class="section-title">Let’s build something</h2>
+          <p class="muted">Have an idea? Reach out and we’ll turn it into an interactive experience.</p>
+        </div>
+        <form class="contact-form reveal" onsubmit="event.preventDefault(); alert('Submit handler placeholder');">
+          <div class="row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+          </div>
+          <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+          <button class="btn btn-primary ripple" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
     <footer>
       <div>© 2025 3d Landng-Page </div>
       <div class="links">
@@ -55,5 +127,6 @@
       </div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
